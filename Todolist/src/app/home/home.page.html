@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Todolist
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="primary">
+      <ion-title size="large">Todolist</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div class="bg-img">
+      <h1><b>Aujourd'hui</b></h1>
+      <h3>{{ currentDate }}</h3>
+
+      <ion-card>
+        <ion-item lines="none">
+          <ion-input [(ngModel)]="myTask" placeholder="Entrez une tâche"></ion-input>
+        </ion-item>
+      </ion-card>
+    </div>
+
+  </div>
+</ion-content>

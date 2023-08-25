@@ -1,0 +1,7 @@
+{
+  "name": "Navigation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
