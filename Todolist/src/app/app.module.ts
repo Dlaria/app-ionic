@@ -13,10 +13,11 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 export const firebaseConfig = {
   apiKey: "AIzaSyCCCEQtVVC5YV5C0Fxc1CLpFRLqDsmjR1M",
   authDomain: "app-ionic-d36fc.firebaseapp.com",
+  databaseURL: "https://app-ionic-d36fc-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "app-ionic-d36fc",
   storageBucket: "app-ionic-d36fc.appspot.com",
   messagingSenderId: "882631256708",
-  appId: "1:882631256708:web:3fb75ddabed397ad37f0d1"
+  appId: "1:882631256708:web:e32c24b687c7878e37f0d1"
 };
 
 
@@ -33,15 +34,3 @@ export const firebaseConfig = {
   bootstrap: [AppComponent],
 })
 export class AppModule {}
-
-
-// @NgModule({
-//   declarations: [AppComponent],
-//   imports: [
-//     BrowserModule,
-//     IonicModule.forRoot(),
-//     AppRoutingModule,
-//     AngularFireModule.initializeApp(firebaseConfig),
-//     AngularFireDatabaseModule
-//   ],
-// })

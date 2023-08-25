@@ -54,3 +54,12 @@ h3 {
   margin-bottom:15px;
   text-transform:capitalize;
 }
+
+.add-button {
+  --background:#383a3e;
+  position:absolute;
+  bottom:5px;
+  width:96%;
+  --color:#fff;
+  margin-left:2%;
+}
